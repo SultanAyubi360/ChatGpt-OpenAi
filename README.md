@@ -1,17 +1,7 @@
 # ChatGpt-OpenAi:
 ![maxresdefault (2)](https://user-images.githubusercontent.com/112378013/213863609-7b9f215f-b4e6-4878-a617-fb46302fbe53.jpg)
 
-Android app that is built by ChatGPT from OpenAI 📱 ChatGPT Android demonstrates OpenAI's ChatGPT on Android with Stream Chat SDK for Compose.
-
-**ChatGPT Android** demonstrates [OpenAI's ChatGPT](https://chat.openai.com/chat) on Android with [Stream Chat SDK for Compose](https://getstream.io/chat/sdk/compose?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Dec2022_Jaewoong&utm_term=DevRelOss).
-
-The purpose of this repository is to demonstrate below:
-
-- Demonstrates [ChatGPT](https://chat.openai.com/chat)'s unofficial APIs.
-- Implementing entire UI elements with Jetpack Compose.
-- Implementation of Android architecture components with Jetpack libraries such as Hilt and AppStartup.
-- Performing background tasks with Kotlin Coroutines.
-- Integrating chat systems with Stream Chat SDK for real-time event handling.
+Android app that is built by ChatGPT from OpenAI 📱 ChatGPT Android demonstrates OpenAI's ChatGPT on Android.
 
 ## Features:
 
@@ -81,57 +71,6 @@ Overall, the development of ChatGPT was the result of a collaborative effort by 
 ChatGPT is currently free to use, you just need to register a ChatGPT account in the supported countries and regions to use it. Due to the large number of users, there may be delays or errors such as, ChatGPT error, ChatGPT network error, ChatGPT is at capacity right now. If you encounter these problems, it is recommended to switch to a new account.
 
 Gpt-3 model training cost is huge, Sam Altman, the head of OpenAI, said that ChatGPT cost “probably single-digits cents” per use, and we think there will be a fee plan in the future.
-
-## 🏛️ Architecture
-
-**ChatGPT Android** follows the [Google's official architecture guidance](https://developer.android.com/topic/architecture).
-
-![figure0](https://user-images.githubusercontent.com/112378013/213863765-3d4b3a1a-e5a5-4b09-877d-d1108acf5f9b.png)
-
-
-**ChatGPT Android** was built with [Guide to app architecture](https://developer.android.com/topic/architecture), so it would be a great sample to show how the architecture works in real-world projects.<br>
-
-The overall architecture is composed of two layers; UI Layer and the data layer. Each layer has dedicated components and they each have different responsibilities.
-The arrow means the component has a dependency on the target component following its direction.
-
-### Architecture Overview
-
-![figure1](https://user-images.githubusercontent.com/112378013/213863783-be441421-d8ad-48c0-a3dd-ee73c3fc9eea.png)
-
-
-Each layer has different responsibilities below. Basically, they follow [unidirectional event/data flow](https://developer.android.com/topic/architecture/ui-layer#udf).
-
-### UI Layer
-![figure2](https://user-images.githubusercontent.com/112378013/213863788-7558c390-bb0f-48e6-b42b-b90814eaff93.png)
-
-
-The UI Layer consists of UI elements like buttons, menus, tabs that could interact with users and [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) that holds app states and restores data when configuration changes.
-
-### Data Layer
-![figure3](https://user-images.githubusercontent.com/112378013/213863795-594642a8-a503-4c35-b55a-ba538b232577.png)
-
-
-The data Layer consists of repositories, which include business logic, such as querying data from the local database and requesting remote data from the network. It is implemented as an offline-first source of business logic and follows the [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth) principle.<br>
-
-For more information about the overall architecture, check out **[Build a Real-Time WhatsApp Clone With Jetpack Compose](https://getstream.io/blog/build-whatsapp-clone/)**.
-
-## Modularization
-![figure4](https://user-images.githubusercontent.com/112378013/213863806-5391f73c-62a9-43fd-b2cc-20e632dcce2a.png)
-
-
-
-**ChatGPT Android** adopted modularization strategies below:
-
-- **Reusability**: Modulizing reusable codes properly enable opportunities for code sharing and limits code accessibility in other modules at the same time.
-
-- **Parallel Building**: Each module can be run in parallel and it reduces the build time.
-
-- **Decentralized focusing**: Each developer team can assign their dedicated module and they can focus on their own modules.
-
-
-## 💯 MAD Score
-
-![summary](https://user-images.githubusercontent.com/24237865/158918011-bc766482-ec83-47dd-9237-d8a226cab263.png)
 
 
 ## :tada: CONTACT ME FOR SOURCE CODES_NOW_:
