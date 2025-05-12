@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# ChatGPT App
-This (unofficial) app acts as a webview wrapper for [chat.openai.com](https://chat.openai.com)
-
-
-![](https://user-images.githubusercontent.com/44395485/205628877-53924327-3e30-4685-9359-574b21ae230a.png)
-
-You can find the latest release [here](https://github.com/matthaigh27/ChatGPT-android-app/releases/latest)
-=======
 # ChatGpt-OpenAi:
 ![maxresdefault (2)](https://user-images.githubusercontent.com/112378013/213863609-7b9f215f-b4e6-4878-a617-fb46302fbe53.jpg)
 
