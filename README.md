@@ -82,8 +82,3 @@ However, if you get some profit from this or just want to encourage me to contin
 Support it by joining stargazers to this. ⭐
 
 Also, [follow me on GitHub](https://github.com/SultanAyubi360) for my next creations! 🤩
-
-
-
-
->>>>>>> 6f266c8dac744ce8d83ff4c5d587b7ef67d395fa
