@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/ic_baseline_live_help_24"/>
+
+    <item
+        android:id="@+id/chat"
+        android:title="ChatGpt"
+        android:icon="@drawable/ic_baseline_explore_24"/>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+    <item
+        android:id="@+id/faq"
+        android:title="Faqs"
+        android:icon="@drawable/ic_question_answer_black_24dp"/>
+
+
+</menu>

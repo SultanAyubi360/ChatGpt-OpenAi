@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round"
+    android:padding="@dimen/size_16"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/size_16"
+    app:cardElevation="@dimen/size_2"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_16">
+
+        <RelativeLayout
+            android:id="@+id/dialog_rating_button_negative"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/dialog_circle_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_close"
+                android:contentDescription="Close Rating Dialog"
+                app:tint="@color/Primary_Clr" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PowerFull AI Tool And Best ChatBot \n ChatGPT: The Most Advanced AI Chatbot"
+            android:textAlignment="center"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_rating_button_negative"
+            tools:layout_editor_absoluteX="16dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/dialog_rating_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/ic_rate_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_rating_button_negative" />
+
+        <TextView
+            android:id="@+id/textViewRateTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/size_10"
+            android:gravity="center"
+            android:text="@string/rating_title_1"
+            android:textSize="23sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dialog_rating_icon" />
+
+        <TextView
+            android:id="@+id/textViewRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_10"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/rating_promote"
+            android:textSize="19sp"
+            app:layout_constraintBottom_toTopOf="@+id/linear_layout_RatingBar"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRateTitle" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout_RatingBar"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="@dimen/size_15"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRate">
+
+            <ImageView
+                android:id="@+id/image_view_star_1"
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:src="@drawable/ic_round_star" />
+
+            <ImageView
+                android:id="@+id/image_view_star_2"
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:src="@drawable/ic_round_star" />
+
+            <ImageView
+                android:id="@+id/image_view_star_3"
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:src="@drawable/ic_round_star" />
+
+            <ImageView
+                android:id="@+id/image_view_star_4"
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:src="@drawable/ic_round_star" />
+
+            <ImageView
+                android:id="@+id/image_view_star_5"
+                android:layout_width="46dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:src="@drawable/ic_round_star" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSubmit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/size_15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear_layout_RatingBar">
+
+            <TextView
+                android:id="@+id/text_view_submit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_submit"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/rating_dialog_submit"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

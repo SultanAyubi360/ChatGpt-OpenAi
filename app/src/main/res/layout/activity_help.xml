@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HelpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_marginBottom="@dimen/_6sdp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_6sdp"
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/pic"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="How to Use ChatGPT?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="To use ChatGPT, you will need to have access to the OpenAI API. Once you have obtained an API key, you can use the ChatGPT model by sending it a prompt in the form of a text string. The model will then generate a response based on the information it has been trained on."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Steps of Use ChatGPT:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="◆Open Application by Click Getstarted or move to ChatGpt option in bottombar,Register an account and log in (if you have an account, log in directly)\n◆Click ChatGPT on the bottom left\n◆Click Try it now at chat.openai.\n◆Enter the question you need to query in the input box at the bottom"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="ChatGPT Examples for Users:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="Let’s take a look at the actual use of ChatGPT first. From the standpoint of 2022, this is absolutely amazing."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Questions/Answers By ChatGPT:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+            <ImageView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/ques">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Coding By ChatGPT:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+            <ImageView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/code">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Poem By ChatGPT:"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/poem">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Translate By ChatGPT:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/trans">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="The Application of ChatGPT:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="ChatGPT can be used for a wide range of natural language processing tasks. Some of the potential applications of ChatGPT include:
+\n\n🔹Text generation: ChatGPT can be used to generate human-like text responses to prompts, which makes it useful for creating chatbots for customer service, generating responses to questions in online forums, or even creating personalized content for social media posts.
+\n\n🔹Language translation: ChatGPT can also be used for language translation tasks. By providing the model with a text prompt in one language and specifying the target language, the model can generate accurate and fluent translations of the text.
+\n\n🔹Text summarization: ChatGPT can be used to generate summaries of long documents or articles. This can be useful for quickly getting an overview of a text without having to read the entire document.
+\n\n🔹Sentiment analysis: ChatGPT can be used to analyze the sentiment of a given text. This can be useful for understanding the overall tone and emotion of a piece of writing, or for detecting the sentiment of customer feedback in order to improve customer satisfaction.
+\n\nOverall, ChatGPT is a versatile tool that can be used for a wide range of natural language processing tasks. The specific applications of the model will depend on the needs and goals of the user."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Is ChatGPT Free to Use?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="ChatGPT is currently free to use, you just need to register a ChatGPT account in the supported countries and regions to use it. Due to the large number of users, there may be delays or errors such as, ChatGPT error, ChatGPT network error, ChatGPT is at capacity right now. If you encounter these problems, it is recommended to switch to a new account.
+Gpt-3 model training cost is huge, Sam Altman, the head of OpenAI, said that ChatGPT cost “probably single-digits cents” per use, and we think there will be a fee plan in the future."
+                android:textAlignment="center"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/Helpbanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent=".075"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:itemPaddingBottom="@dimen/_4sdp"
+        android:background="#0EA47E"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/rate_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_round_star_on"
+        app:layout_constraintBottom_toTopOf="@+id/pic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/pic"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:text="PowerFull AI Tool And Best ChatBot \n ChatGPT: The Most Advanced AI Chatbot">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/descrption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:fontFamily="@font/sarabunregular"
+        android:text="We are excited to introduce ChatGPT to get users’ feedback and learn about its strengths and weaknesses.During the research preview, usage of ChatGPT is free.ChatGPT:Optimizing Language Models for Dialogue.OpenAI release a Optimizing Language Model for Dialogue name ChatGPT.ChatGPT is a large language model developed by OpenAI that can be used for natural language processing tasks such as text generation and language translation.It is based on the GPT-3.5 (Generative Pretrained Transformer 3.5) model,which is one of the largest and most advanced language models currently available.One of the key features of ChatGPT is its ability to generate human-like text responses to prompts. This makes it useful for a wide range of applications, such as creating chatbots for customer service, generating responses to questions in online forums, or even creating personalized content for social media posts."
+        android:textSize="13sp">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/startedBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sarabunbold"
+        android:text="Get Started"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descrption" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/Mainban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.gms.ads.AdView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent=".075"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:itemPaddingBottom="@dimen/_4sdp"
+        android:background="#0EA47E"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

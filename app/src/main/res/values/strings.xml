@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ChatGPT</string>
+    <string name="question" translatable="false">Question</string>
+    <string name="answer" translatable="false">Answer</string>
+    <string name="developers_email" translatable="false">sultanayubi360@gmail.com</string>
+    <string name="feedback_email_subject" translatable="false">ChatGpt</string>
+
+    <string-array name="faq_questions">
+        <item>Who owns ChatGPT?</item>
+        <item>How does ChatGPT work?</item>
+        <item>Is ChatGPT accurate?</item>
+        <item>Can ChatGPT help with specific tasks or questions?</item>
+        <item>Is ChatGPT a free service?</item>
+        <item>Can ChatGPT be used on mobile devices?</item>
+        <item>Is ChatGPT available in different languages?</item>
+        <item>How do I get started with ChatGPT?</item>
+
+    </string-array>
+
+    <string name="feedback_text">Feedback</string>
+    <string name="feedback_hint_text">Suggest us what went wrong and we\'ll work on it.</string>
+
+    <string name="rating_promote">We are working hard for a better user experience. \nWe\'d greatly appreciate if you can rate us.</string>
+
+
+    <string name="rating_title_1">Oh, no!</string>
+    <string name="rating_title_2">oh, no!</string>
+    <string name="rating_title_3">Hmmm!</string>
+    <string name="rating_text_4">Thanks for your feedback.</string>
+    <string name="rating_title_4">We like you too!</string>
+    <string name="rating_title_5">We love you too!</string>
+
+
+    <string name="rate_app_text">RATE THIS APP</string>
+    <string name="rating_dialog_cancel">Cancel</string>
+    <string name="rating_dialog_experience">How was your experience with us?</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_never">Never</string>
+    <string name="rating_dialog_submit">Submit</string>
+    <string name="rating_dialog_suggestions">Suggest us what went wrong and we\'ll work on it!</string>
+
+    <string name="info_dialog_title">Credits</string>
+    <string name="info_dialog_details">OpenAI App Developers Developed this app free of cost.All credits goes to our Hardworking team for creating ChatGpt App.Enjoy free services by OpenAi.</string>
+
+    <!--  FAQs  -->
+    <string-array name="faq_answers">
+        <item>OpenAI company.</item>
+        <item>ChatGPT uses natural language processing technology to understand and generate responses to questions and statements that it receives.</item>
+        <item>ChatGPT is designed to provide accurate and helpful information to the best of its ability, but it is not perfect and may not always provide the most up-to-date or relevant answers.</item>
+        <item>ChatGPT is a general-purpose language model, so it can assist with a wide range of tasks and questions. However, it may not be able to provide specific or detailed information on certain topics.</item>
+        <item>Yes, ChatGPT is a free service now.</item>
+        <item>Yes, ChatGPT can be used on mobile devices through a web browser or through a chat app that supports its integration.</item>
+        <item>Yes, ChatGPT support different languages.</item>
+        <item>To use ChatGPT, you can simply type or speak your question or statement in the input field and the model will generate a response.</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

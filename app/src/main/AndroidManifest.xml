@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sultanayubi.chatgpt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon_512"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/icon_512"
+        android:supportsRtl="true"
+        android:windowSoftInputMode="adjustNothing"
+        android:theme="@style/Theme.ChatGPT"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="com.sultanayubi.chatgpt.HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sultanayubi.chatgpt.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sultanayubi.chatgpt.FaqActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sultanayubi.chatgpt.WebActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sultanayubi.chatgpt.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.sultanayubi.chatgpt.MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

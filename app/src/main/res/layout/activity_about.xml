@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        
+        <LinearLayout
+            android:layout_marginTop="@dimen/_6sdp"
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="ChatGPT: The Most Advanced AI Chatbot"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="OpenAI release a Optimizing Language Model for Dialogue name ChatGPT on November 30, 2022.
+Once it was released, ChatGPT gained great attention and traffic, causing much discussion on online platforms. What is the magic of ChatGPT that makes people so crazy about it?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="What is ChatGPT?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="ChatGPT is a large language model developed by OpenAI that can be used for natural language processing tasks such as text generation and language translation. It is based on the GPT-3.5 (Generative Pretrained Transformer 3.5) model, which is one of the largest and most advanced language models currently available.
+One of the key features of ChatGPT is its ability to generate human-like text responses to prompts. This makes it useful for a wide range of applications, such as creating chatbots for customer service, generating responses to questions in online forums, or even creating personalized content for social media posts."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Who Invented ChatGPT?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="ChatGPT is based on the GPT-3 architecture, which was developed by a team of researchers at OpenAI.The development of the GPT-3 architecture was led by Alec Radford, Jeffrey Wu, Rewon Child, and David Luan, who are all researchers at OpenAI. The team worked closely with a number of other researchers and engineers at OpenAI to develop and train the GPT-3 model on a large corpus of text data.
+The GPT-3 architecture was introduced in a research paper published in 2020, which described the model’s ability to generate human-like text responses to prompts. Since then, the GPT-3 model has been widely used by researchers and developers for a variety of natural language processing tasks, including text generation, language translation, and text summarization.
+Overall, the development of ChatGPT was the result of a collaborative effort by a team of researchers and engineers at OpenAI. The model is based on the GPT-3 architecture, which was developed by Alec Radford, Jeffrey Wu, Rewon Child, and David Luan."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Why Is ChatGPT so Good?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="There are several reasons why ChatGPT is considered to be an amazing tool for natural language processing tasks. Some of the key reasons include:
+\n\n⭐Large size: ChatGPT is a large language model that has been trained on a massive corpus of text data. This allows the model to generate highly accurate and fluent responses to a wide range of natural language processing tasks.
+
+\n\n⭐Human-like responses: ChatGPT is able to generate responses that are highly relevant to the prompt and that exhibit a level of knowledge and understanding that is similar to that of a human. This makes the model particularly useful for tasks such as text generation and language translation.
+
+\n\n⭐Adaptability: ChatGPT is able to adapt to different situations and contexts, which makes it useful for a wide range of applications. For example, if you use the model to generate responses to questions in an online forum, it will be able to generate responses that are appropriate for the topic being discussed.
+
+\n\n⭐Versatility: ChatGPT is a versatile tool that can be used for a wide range of natural language processing tasks. Whether you are a developer looking to create a chatbot or a content creator looking for inspiration, ChatGPT can help you generate high-quality text responses quickly and easily.
+\n\nOverall, ChatGPT is an amazing tool because of its large size, human-like responses, adaptability, and versatility. These features make it a valuable resource for anyone who needs to perform natural language processing tasks."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:fontFamily="sans-serif-medium"
+                android:text="The Limitations of ChatGPT"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:layout_marginEnd="@dimen/_6sdp"
+                android:text="Like any other machine learning model, ChatGPT has certain limitations and limitations that users should be aware of. Some of the potential limitations of ChatGPT include:
+\n\n⭐Dependence on data: ChatGPT is a machine learning model that has been trained on a large corpus of text data. As a result, the quality and accuracy of the model’s responses will depend on the quality and diversity of the data that it has been trained on. If the model is not trained on a diverse and comprehensive dataset, it may generate responses that are not relevant or accurate.
+\n\n⭐Limited understanding: While ChatGPT is able to generate highly accurate and fluent responses to prompts, it does not have a deep understanding of the world or the ability to reason like a human. As a result, the model may not be able to generate responses to complex or abstract questions, or to understand the context and implications of a given prompt.
+\n\n⭐Bias: Machine learning models, including ChatGPT, can sometimes exhibit bias in their responses. This can occur if the model has been trained on biased or unrepresentative data, or if the model’s algorithms are biased in some way. As a result, users of ChatGPT should be aware of the potential for bias in the model’s responses and take steps to mitigate it.
+\n\n⭐ChatGPT Error: Even artificial intelligence can make some mistakes due to resource or technical limitations. When our attempts to access ChatGPT fail, we can follow these steps to try and resolve the problem.
+\n\n\t✓lear your browser cache or try logging in with a different browser
+\n\t✓Try to keep refreshing the login page (there is a chance that the login will be successful)
+\n\t✓Open the OpenAI server to check the current maintenance report
+\n\t✓If none of these methods work, then please click on ChatGPT Error Solution.
+\n\nOverall, ChatGPT is a powerful and versatile tool for natural language processing tasks. However, like any other machine learning model, it has certain limitations that users should be aware of."
+                android:textAlignment="center"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:textColor="@color/black"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/aboutban"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints">
+
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent=".075"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:itemPaddingBottom="@dimen/_4sdp"
+        android:background="#0EA47E"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
